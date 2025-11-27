@@ -60,6 +60,14 @@ and server negotiate security parameters before encrypted communication begins.
 (iv) Key Exchange messages were exchanged to generate shared session keys.
 (v) Change Cipher Spec and Finished packets indicated the start of encrypted communication.
 
+Wireshark observation(analysis):
+(i) The ClientHello packet showed supported TLS versions, cipher suites, and extensions.
+(ii) The ServerHello packet selected the TLS version and cipher suite and started session negotiation.
+(iii) The server sent its digital certificate, which was visible in Wireshark for verification.
+(iv) Key Exchange messages were exchanged to derive shared session keys.
+(v) Change Cipher Spec and Finished packets indicated that encrypted communication had begun.
+
+
 [Open PDF](./TLSHandshakeExp05.pdf)
 
 ##Experiment06 - Establish Secure Remote Login using SSH
