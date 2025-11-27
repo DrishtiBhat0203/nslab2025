@@ -121,7 +121,7 @@ how PGP ensures confidentiality, authenticity, and integrity in email communicat
 (v) The recipient successfully received and decrypted the encrypted email, confirming secure 
   PGP-based communication.
 
-[Open PDF](./PGPEncryptedemailThunderbirdExp08.pdf)
+[Open PDF](./PGPEncryptedmailThunderbirdExp08.pdf)
 
 ##Experiment09 - 
 Configure and Analyze IPsec VPN in Tunnel Mode
