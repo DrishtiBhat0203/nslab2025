@@ -142,3 +142,23 @@ and integrity during communication.
 (v) Ping tests between hosts confirmed that communication passed securely through the IPsec tunnel.
 
 [Open PDF](./AnalyzeIPsecVPNTunnelmodeExp09.pdf)
+
+## Experiment 10 – Setup and Test a Simple Intrusion Detection System (IDS) with Snort
+Learn IDS concepts by installing and configuring Snort, simulating network attacks, and analyzing suspicious traffic alerts.
+
+In this experiment, Snort was installed and configured to run in IDS mode. Various tests were performed 
+to observe how Snort detects and logs suspicious network activity.
+
+### Key Observations:
+(i) Snort was launched in analysis mode, displaying packet statistics and alert messages 
+  (e.g., bad UDP checksum alerts and UDP scan detections). :contentReference[oaicite:0]{index=0}
+(ii) The Snort configuration interface showed modules for inspection, logging, preprocessors, 
+  rule configuration, and outputs. This allowed tuning IDS behavior. :contentReference[oaicite:1]{index=1}
+(ii) Snort was started using the command:
+  `sudo snort -c /etc/snort/snort.lua -i eth0`, loading rules and default configurations. :contentReference[oaicite:2]{index=2}
+(iv) Network details were verified using `ifconfig` to identify the correct interface for monitoring. :contentReference[oaicite:3]{index=3}
+(v) An nmap scan was executed against the system, which triggered Snort alerts, demonstrating how IDS 
+  detects suspicious or potentially malicious traffic. :contentReference[oaicite:4]{index=4}
+
+[Open PDF](./SnortExp10.pdf)
+
