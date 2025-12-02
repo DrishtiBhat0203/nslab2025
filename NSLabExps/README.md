@@ -160,5 +160,5 @@ to observe how Snort detects and logs suspicious network activity.
 (v) An nmap scan was executed against the system, which triggered Snort alerts, demonstrating how IDS 
   detects suspicious or potentially malicious traffic. :contentReference[oaicite:4]{index=4}
 
-[Open PDF](./SnortExp10.pdf)
+[Open PDF](IDSwithSnort(Exp10).pdf)
 
